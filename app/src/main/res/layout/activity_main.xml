@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5cbff4"
+    tools:context="cn.com.telecomphone.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/show_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4e9cd1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="6dp"
+            android:text="获取SIM卡和网络信息"
+            android:textColor="#f1f4f4"
+            android:textSize="26sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/show_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show_name">
+
+    </ListView>
+
+
+    <TextView
+        android:id="@+id/is_monitor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show_lv"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="未开启监听！"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/set_black_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="黑名单设置" />
+
+        <Button
+            android:id="@+id/getphoen_call_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="监听手机来电" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="statusNames">
+        <item>设备编号:</item>
+        <item>软件版本:</item>
+        <item>网络运行商代号:</item>
+        <item>网络运行商名称:</item>
+        <item>手机制式：</item>
+
+        <item>设备当前位置:</item>
+        <item>SIM卡国别:</item>
+        <item>SIM卡序列号:</item>
+        <item>SIM卡状态:</item>
+        <item>呼叫状态：</item>
+        <item>用户ID：</item>
+    </array>
+    <array name="phoneType">
+        <item>NON</item>
+        <item>GSM</item>
+        <item>CDM</item>
+        <item>SIP</item>
+    </array>
+
+    <array name="simStatu">
+        <item>UNKNOWN</item>
+        <item>ABSENT</item>
+        <item>PIN_REQUIRED</item>
+        <item>PUK_REQUIRED</item>
+        <item>NETWORK_LOCKED</item>
+        <item>READY</item>
+        <item>NOT_READY</item>
+        <item>PERM_DISABLED</item>
+        <item>CARD_IO_ERROR</item>
+    </array>
+
+    <array name="callStatus">
+        <item>IDLE</item>
+        <item>RINGING</item>
+        <item>OFFHOOK</item>
+    </array>
+
+
+</resources>
